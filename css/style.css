@@ -129,6 +129,7 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:60px;
+    margin-bottom: 50px;
 }
 
 article h3{
@@ -212,3 +213,14 @@ footer ul{
 }
 
 
+/*----------------------------------------------------------------------------
+AIDE STYLISTIQUE
+----------------------------------------------------------------------------*/
+
+.conteneur-transport-visible{
+    visibility: visible;
+}
+
+.conteneur-transport-invisible{
+    visibility: hidden;
+}
